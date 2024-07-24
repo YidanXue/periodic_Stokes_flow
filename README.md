@@ -9,3 +9,12 @@ Prerequisites
 ----------------------
 
 The codes need to be run in MATLAB or Octave, its free alternative. The recommended version is MATLAB_R2023b. The user needs to have aaa.m in the same folder (or add it in the default MATLAB path) for the AAA rational approximation. The easist way to do this is to download Chebfun at https://www.chebfun.org. 
+
+MATLAB codes for the paper
+----------------------
+
+1) 'poiseuille_smooth.m' computes Stokes flow in a smooth periodic channel driven by a pressure gradient (Poiseuille problem). This code reproduces Fig. 3.
+2) 'poiseuille_sharp.m' computes Stokes flow in a periodic channel with sharp corners driven by a pressure gradient (Poiseuille problem). This code reproduces Fig. 4.
+3) 'Pozrikidis.m' computes Stokes flow in periodic channels constricted by a moving flat wall and a steady sinusoidal wall. This code reproduces Fig. 5.
+4) 'poincare_section.m' computes the Poincar&#233; sections of the unsteady Couette problem between two sinusoidal walls. This code reproduces Fig. 6.
+5) 'poincare_case1.m', 'poincare_case2.m' and 'poincare_case3.m' reproduce the 3 unsteady Couette problems presented in Fig. 9.
