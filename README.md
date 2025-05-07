@@ -1,9 +1,9 @@
 [![made-with-MATLAB](https://img.shields.io/badge/Made%20with-MATLAB_R2023b-orange)]()
 [![GitHub latest commit](https://badgen.net/github/last-commit/YidanXue/periodic_Stokes_flow)](https://GitHub.com/YidanXue/periodic_Stokes_flow/commit/)
-[![arXiv](https://img.shields.io/badge/DOI-10.48550%2FarXiv.2407.14864-blue)](https://doi.org/10.48550/arXiv.2407.14864)
+[![arXiv](https://img.shields.io/badge/DOI-10.1098%2Frspa.2024.0676-blue)](https://doi.org/10.1098/rspa.2024.0676)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/YidanXue?link=https%3A%2F%2Ftwitter.com%2FYidanXue)
 
-Repository for the manuscript "Computing Stokes flows in periodic channels via rational approximation" by Yidan Xue. The arXiv preprint can be found at https://arxiv.org/abs/2407.14864.
+Repository for the manuscript "Computing Stokes flows in periodic channels via rational approximation" by Yidan Xue. The arXiv preprint can be found at https://arxiv.org/abs/2407.14864. The PRSA publication can be found at https://doi.org/10.1098/rspa.2024.0676.
 
 Prerequisites
 ----------------------
