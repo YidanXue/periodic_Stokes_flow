@@ -243,6 +243,6 @@ switch i
    case  'psi' , fh = -2*a*imag(Z).^2-4*b*imag(Z).^3-2*imag(Z).*real(ff)+imag(gg);
    case   'uv' , fh = conj(-4*a*imag(Z)-12*b*imag(Z).^2-2*real(ff)-2i*imag(Z).*(R1*cf)+R1*cg);
    case   'p'  , fh = -24*b*real(Z)+4*real(R1*cf);                      
-   case 'omega', fh = 4*a+24*b*imag(Z)-4*real(R1*cf);                       
+   case 'omega', fh = 4*a+24*b*imag(Z)-4*imag(R1*cf);
 end
 end
