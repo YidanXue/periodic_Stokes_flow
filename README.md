@@ -18,3 +18,8 @@ MATLAB codes for the paper
 3) 'Pozrikidis.m' computes Stokes flow in periodic channels constricted by a moving flat wall and a steady sinusoidal wall. This code reproduces Fig. 5.
 4) 'poincare_section.m' computes the Poincar&#233; sections of the unsteady Couette problem between two sinusoidal walls. This code reproduces Fig. 6.
 5) 'poincare_case1.m', 'poincare_case2.m' and 'poincare_case3.m' reproduce the 3 unsteady Couette problems presented in Fig. 9.
+
+Extension to multiply connected domains
+----------------------
+
+For channels containing smooth obstacles, the periodic solver places poles inside each solid and adds three real logarithmic coefficients per obstacle to the boundary fit. [Note (PDF)](notes/periodic_stokes_obstacles.pdf) and [MATLAB code](multiply_connected/).
